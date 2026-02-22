@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 import Login from "./pages/Login";
 
-const API = "http://localhost:5050";
+const API = "https://craftchain-jdyz.onrender.com";
 
 function App() {
   const [items, setItems] = useState([]);
