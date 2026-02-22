@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+.container {
+  padding: 40px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #10b981;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.item-card {
+  background-color: #334155;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #10b981;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #059669;
+}
+
+.progress-bar {
+  background-color: #475569;
+  height: 8px;
+  border-radius: 6px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background-color: #10b981;
+  height: 100%;
+}
+
+.tree-node {
+  margin-left: 20px;
+  border-left: 1px solid #475569;
+  padding-left: 10px;
+  margin-top: 10px;
+}
