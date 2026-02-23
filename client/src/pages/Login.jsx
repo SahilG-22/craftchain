@@ -9,10 +9,10 @@ export default function Login({ onLogin }) {
   e.preventDefault();
 
   try {
-    const res = await axios.post(
-      "http://localhost:5050/auth/login",
-      { email, password }
-    );
+    const API = import.meta.env.VITE_API_URL;
+
+    const res = await axios.post(`${API}/auth/login`,{ email, password });
+
 
     // 🔥 Store token
     localStorage.setItem("token", res.data.token);
