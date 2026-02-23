@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 import Login from "./pages/Login";
 
-const API = "https://craftchain-jdyz.onrender.com";
+const API = import.meta.env.VITE_API_URL;
 
 function App() {
   const [items, setItems] = useState([]);
