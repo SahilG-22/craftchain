@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://your-site-name.netlify.app"
+    "https://craftchain2.netlify.app/"
   ],
   credentials: true
 }));
